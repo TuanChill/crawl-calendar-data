@@ -90,7 +90,7 @@ function saveToFile(data, filename = 'calendar_data.json') {
  * Main function to crawl calendar data for years 2024-2027
  */
 async function main() {
-    const years = [2024, 2025, 2026, 2027];
+    const years = [2022, 2023, 2024, 2025, 2026, 2027, 2028, 2029];
     
     console.log('Starting calendar data crawl...');
     console.log(`Years to crawl: ${years.join(', ')}`);
